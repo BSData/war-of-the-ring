@@ -1,0 +1,3670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e853-b162-e25c-b47c" name="The Elven Kingdoms" revision="1" battleScribeVersion="2.01" gameSystemId="ce85-7e7f-1b5c-08e5" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="a4d5-93be-8001-5373" name="Galadhrim Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a141-892b-734e-4990" name="Galadhrim Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4aca-dfaa-c592-2646" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="16a2-66d7-ce56-7a52" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1b30-2582-02e3-a320" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3156-67c1-57f4-e074" name="Glaives" hidden="false" targetId="573d-5eb4-2b53-fb05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="37e0-3f65-2164-e977" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="34d6-1b99-0701-9857" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="182b-c93f-cc22-066e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29d8-a710-acdd-7e64" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bf8e-1cde-818c-6935" name="Galadhrim Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="659e-cf3c-7e85-aa17" name="Galadhrim Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2f-98fc-3f34-bd1a" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e8b-1891-e999-9bc7" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fd6e-e408-4abe-7bed" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894f-3bdd-6b48-99e0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b747-d110-e158-fa2f" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e719-5893-a479-2c7b" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4d3-9ced-d7ef-72af" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a30d-1a9a-c52a-7099" name="Elven Stormcaller" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="60a1-9b08-bada-3932" name="Elven Stormcaller" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="c9ad-9f9a-7e5f-203f" name="Magic - Elven Stormcaller" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of the Wilderness, Mastery 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8412-21be-135d-ad1b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8532-21ca-796d-72e0" name="Galadhrim Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="581f-4ba0-242c-87b9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4aca-dfaa-c592-2646" name="Shields" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8532-21ca-796d-72e0" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe18-8d0a-cd60-ca25" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5c2-ea7f-a78f-2ead" name="Galadhrim Archer Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3a3b-ee88-d37f-e99f" name="Galadhrim Archers" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4aca-dfaa-c592-2646" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ceea-36e9-29e6-82c6" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0fa-810e-d3af-3765" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f722-b404-c489-0c3b" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="0793-e5e4-c7cd-a313" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1cb-1eef-fc37-a2b8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1d1-f712-596d-7f2a" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="fe85-d117-1838-b62a" name="Galadhrim Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="2050-9da6-cbbf-b93e" name="Galadhrim Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6a4-1cb9-a2f0-aeaa" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6564-d2e0-2a05-9262" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="44cc-dc12-f206-40f9" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bc-5bd3-4e70-ce1f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b30-07fe-c32e-b0bd" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d35c-7834-9cfd-8145" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb3-faa9-7e61-50b0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="91c8-9f46-c9b7-a104" name="Elven Stormcaller" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="48d9-9723-bffc-389d" name="Elven Stormcaller" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="a0a4-8723-d1f7-f0ac" name="Magic - Elven Stormcaller" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of the Wilderness, Mastery 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8cb-ccaa-0862-1b2b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f230-31f8-fe4f-9db0" name="Galadhrim Archers" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2416-1fe3-c117-aaad" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c430-e073-9ee1-e0cf" name="Wood Elf Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d746-2a7d-00e1-aba3" name="Wood Elf Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="03e5-305c-b6a9-43cb" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b477-8084-9e90-eece" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="041d-58b2-4774-c983" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="533c-1079-60ca-8148" name="Enchanted Cloaks" hidden="false" targetId="f95e-1034-ff59-38df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e8c8-7144-e0d3-be08" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e7ec-0835-ccae-5719" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a484-903c-65e3-3d22" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c9-b701-7e7d-bcfe" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="e2ed-e4a7-5f09-a118" name="Wood Elf Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b930-8e22-aa9d-dc97" name="Wood Elf Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="2d4f-5b2c-83b3-475e" value="7/-">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="c430-e073-9ee1-e0cf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b148-0e67-43c6-dd77" type="greaterThan"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="137a-0244-0afc-2201" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fcf9-d708-9556-5cc6" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fad0-cf41-f898-e0af" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="747d-2b67-bc80-c2b6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca6e-aa51-e391-b655" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1b85-8b9e-8374-4d5b" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0893-2432-a59e-008b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f218-ab59-884a-7fb4" name="Wood Elf Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf3-f9f4-edfe-9424" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc9d-2beb-7380-83e5" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee2d-ea40-c6c8-601d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="aa18-3fb7-ffb7-08e9" name="Longbows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9710-95e9-c5eb-7a7e" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f218-ab59-884a-7fb4" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b148-0e67-43c6-dd77" name="Glaives" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="87ab-8655-9dd3-a70d" name="Glaives" hidden="false" targetId="573d-5eb4-2b53-fb05" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f218-ab59-884a-7fb4" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f5b5-c689-ddc5-f046" name="High Elf Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="aecc-e714-640c-fca9" name="High Elf Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4aca-dfaa-c592-2646" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="81d1-d8bb-804d-8166" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5d3e-5877-4a6b-f776" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="41fb-78a0-7b2b-850e" name="Glaives" hidden="false" targetId="573d-5eb4-2b53-fb05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="26d0-2059-cabc-f783" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="25e1-baf4-b3b0-1b63" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d9a-d436-4bc5-1934" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f95d-07bf-79f0-c660" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4f5f-c400-2087-029e" name="High Elf Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b840-cad7-b193-4999" name="High Elf Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="8/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fedb-4ea4-1564-1311" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4d94-4604-e7b4-0dd7" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="76bf-a2b7-aa83-4786" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff0-ea20-aeeb-325b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2519-b945-150e-4178" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fc12-f3bd-c3c2-233f" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73bc-5eba-98a9-eeca" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="55.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4f53-b1c4-92ab-eb9b" name="High Elf Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1086-9b0c-68c8-f289" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="55.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd58-0d48-a002-7a32" name="High Elf Archer Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6ec4-a2f7-6ada-6ada" name="High Elf Archers" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4aca-dfaa-c592-2646" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4ed9-b1eb-f47e-929f" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1d66-0671-2155-f738" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ce8b-3471-dcda-d9b2" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3562-c3b3-c01f-26bc" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ba02-8037-b393-47ab" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceab-1278-f012-7b4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56ab-59bb-224d-206e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="adea-0e5c-7b14-73d5" name="High Elf Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7f6e-e721-58d3-d42a" name="High Elf Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="262b-a60c-0701-4004" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d80c-1984-e125-058f" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7700-f647-0866-a375" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="080b-fe26-e1f0-7879" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0192-febc-8060-9393" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="681d-5526-4cca-1661" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d821-4778-0342-912b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="744f-55b6-cd57-470f" name="High Elf Archers" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e90-c186-c0c7-b436" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c87-df98-12a0-d8a4" name="Mirkwood Sentinels" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="164a-39cb-8620-c4ae" name="Wood Elf Sentinels" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4aca-dfaa-c592-2646" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b805-711b-9caa-cbaa" name="Enrapturing Song" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any enemy formation in base contact with one or more formations of Wood Elf Sentinels at the start of the Fight phase must pass a Courage test or have its Strength reduced to 1 for the remainder of the phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="37a8-8af3-1ee2-bc12" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3522-1eeb-dde6-4cd7" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="847a-fe49-0d6e-d441" name="Enchanted Cloaks" hidden="false" targetId="f95e-1034-ff59-38df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f58-07a8-c4e0-9573" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c808-9213-ed35-a995" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0d55-0481-f317-e62e" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc0a-172a-d3a7-00c2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decd-3abe-c84a-e6b2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4f21-c29f-b266-fac7" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e6f0-a164-b144-0f1f" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afd-b5df-8e92-4396" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4145-188b-91ca-bfb3" name="Wood Elf Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="bdb0-220b-3681-2d64" name="Wood Elf Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca2d-75b4-41ed-d0f6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0050-2406-8a0b-42d0" name="Wood Elf Sentinels" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26d-1fdc-87f1-d962" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="94b5-64b5-6c17-a836" name="Galadhrim Knight Regiment" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ca86-03be-9b99-405b" name="Galadhrim Knights" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(5)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="91cf-0b40-8fe8-7f90" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="12"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="4"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="4e25-206d-5a61-437a" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="03ff-5fd5-24ef-4632" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="657c-30c5-7ef0-a4dd" name="Expert Riders" hidden="false" targetId="be47-4e29-a135-916f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="85ba-817a-5170-7310" name="Glaives" hidden="false" targetId="573d-5eb4-2b53-fb05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e873-46e3-fa79-4c1d" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0eca-7794-f9a5-4084" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5526-3aa1-7eeb-2bc7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb0-272a-2a3d-22f2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="42a4-3d74-e971-562f" name="Knight Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7f43-97de-234e-d436" name="Knight Ca" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a49-250f-a165-ad13" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c60-80c3-4183-861b" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3379-26fd-b171-0e02" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="415a-7e76-ac51-5520" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5f09-1430-692c-8769" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3781-61c7-3c73-dd98" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c36-5634-146f-1e03" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9681-aedd-ed36-d991" name="Galadhrim Knights" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38b5-776a-6123-6d46" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="520b-095e-ef95-313c" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a1-b41a-0ebb-40c3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8555-be5c-87cf-cc3b" name="Longbow" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0030-ec00-5306-082b" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="91cf-0b40-8fe8-7f90" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="997e-c22e-91ad-1b7e" name="High Elf Cohort" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2c72-3ba9-9e12-17c8" name="High Elf Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5(7)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="86e7-ff04-4b38-ac0f" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="25be-b7b5-b660-1164" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="98a2-b160-c01d-23b7" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c97f-5f8b-1dd3-0324" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d66c-ec56-5314-4b71" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1722-2504-bf6f-9e39" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d4d9-bb03-7dc6-30ba" name="Commander" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c86b-18b3-cddb-cd95" name="Commander" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0994-57b2-b530-89e0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b3c4-be92-2818-22aa" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f8a1-ac6f-9741-00f4" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce61-1c64-0311-7d6f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="efe6-7273-86e6-6587" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1ace-1596-410f-718b" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c45-b364-4af7-1d6e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="60.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4f0-97a5-3e4b-8bb5" name="High Elf Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eac-a8d6-49ac-fa42" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="60.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef77-2f08-2460-4b9f" name="Guards of the Galadhrim Court" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7458-ee7d-2297-d896" name="Galadhrim Guard" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d6ac-f2eb-8963-4b59" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d58d-385a-d688-2dd1" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b590-aaa1-ee66-783c" name="Pikes" hidden="false" targetId="5253-9507-efbe-e47d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fd1-317f-6563-3173" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Orcbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d54a-4ed1-0919-eca6" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c0dd-0bee-c01d-01c0" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1925-8d80-f590-3852" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ff-0c32-0cb6-be6d" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7b5b-f221-aac4-b3e9" name="Guard Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e421-d796-a4a7-3791" name="Galadhrim Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7512-0002-7678-89d5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2740-8e3d-73e1-217a" name="Elven Hornblower" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0e3c-4ccc-00c2-8e20" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b81-a613-62d3-ee09" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f5a8-9448-ff1b-43ac" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0bb2-810d-fefb-a60d" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7853-0b77-72b9-f97e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="046e-b90c-80e6-06a5" name="Elven Stormcaller" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5b26-a55e-1d1d-a8ca" name="Elven Stormcaller" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="498d-3c3e-13b1-c37d" name="Magic - Elven Stormcaller" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of the Wilderness, Mastery 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff7-06d9-0cee-6845" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="70.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dfd8-23fb-003b-4ffc" name="Galadhrim Guard" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46dd-6a3a-8787-9e6e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60b8-6e36-b0eb-cf76" name="Rivendell Guard" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c2c2-c2bf-85ad-902a" name="High Elf Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5(7)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e3f3-38e1-ea7e-826f" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40e5-d78c-f3e6-f845" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="58a0-f6bc-3fb5-d2c4" name="Stalwart" hidden="false" targetId="633f-7fae-4bd8-3bf6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="838f-01ae-7dd7-3207" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9b85-0762-3b22-6fae" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="691c-9bcd-1ffb-758e" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="93a1-e984-f0a2-f8ad" name="Erestor" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value=""/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9355-0831-2886-3a32" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0812-9a4b-c477-c2b4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d8-37b7-0bc6-3b54" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="125.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3a24-837d-1964-6705" name="High Elf Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef6f-7354-3768-a3e5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="65.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a01-7401-bbf6-2b1f" name="Gildor&apos;s Household" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2cf0-7f8e-e533-b2b9" name="Elves of Finrod" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4927-150b-363c-b57e" name="Magic - Gildor" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of the Wilderness, Mastery 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5821-ef98-366c-5766" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="957e-1051-cbd7-a87d" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6244-edae-4cb6-bd77" name="Ambushers" hidden="false" targetId="e3f1-733e-19b3-55f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="82c1-a0bb-350d-aa5c" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dd39-2507-47f8-6252" name="Enchanted Cloaks" hidden="false" targetId="f95e-1034-ff59-38df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d6-5a37-cedd-4dab" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2d15-1d62-3e53-5297" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="02ab-d9d2-e766-1500" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="e8ca-b624-1e9a-72db" name="Gildor Inglorion" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value=""/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e4e7-8112-7eec-82cc" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c5c-bf2a-a69d-191f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9774-e0df-1c5d-1e35" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="160.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a372-5468-dffa-f9b8" name="Elves of Finrod" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d4-5a58-52c9-068a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="798d-9846-28a3-f9ff" name="Glorfindel, Lord of the West" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f2ce-764d-61ce-0932" name="Glorfindel" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="12"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="7"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="4"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="716b-948b-8049-16ab" name="Magic - Glorfindel" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Command, Mastery 2.</description>
+        </rule>
+        <rule id="9efc-f04e-489b-19fc" name="Ride, Asfaloth! Ride!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Glorfindel, Lord of the West moves and charges like a flying monster.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9437-6787-deff-6bf2" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Orcbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0d72-fc0c-8d33-05d4" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="baa0-74a1-2295-01aa" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Spiritbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c99f-58c5-e148-3b3c" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c81b-4d9b-5b10-699f" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Trollbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9ad0-caf4-6c32-bab4" name="Very Hard to Kill" hidden="false" targetId="7b0e-a15b-8c99-6781" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7ec1-2898-c38e-faf0" name="Glaives" hidden="false" targetId="573d-5eb4-2b53-fb05" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf48-43e2-ebfb-100e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1eb7-8088-06c3-0b88" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d2e-ef46-afe4-43ca" name="Haldir&apos;s Elves" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="604c-8858-f114-492a" name="Galadhrim Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ebd9-2d12-020c-cefc" name="Take Aim!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Haldir can choose to expend a Might point at the start of any Shoot phase. If he does so, Haldir&apos;s Elves are counted as having a Shoot value of 1+ until the end of the phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d27b-2ab8-2f0c-21e8" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4df-65b8-74ee-98ac" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="efa0-86d5-2022-c661" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ee7-ff91-0bb5-60d2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b692-eb6c-d9c5-9380" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="77e5-dd1b-48a6-6fca" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="2ff2-714b-85c8-1257" name="Haldir" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4a66-d660-b681-4839" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2f53-f94d-2abf-7dd4" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bc6-94af-7b7f-882d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1e4-e251-b140-7222" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="95.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3095-5a1f-5073-786a" name="Galadhrim Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b02-2299-8422-0438" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a22-47d8-93ca-cea6" name="Guardians of Caras Galadhon" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6dc8-f6df-7249-48e1" name="Galadhrim Guard" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1a6f-d070-1186-5798" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9294-ad3a-7cf8-584b" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="14a3-2d1d-e81a-054e" name="Pikes" hidden="false" targetId="5253-9507-efbe-e47d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a1d0-28ab-63a9-a6d7" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Orcbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6394-baf4-1cb8-9cd1" name="Stalwart" hidden="false" targetId="633f-7fae-4bd8-3bf6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f138-24ac-507e-b2c1" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0fb3-088f-fbf5-fd16" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="6bbd-411f-950e-5024" name="Rumil" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value=""/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value=""/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3eb9-f831-b1b0-f3a8" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3b14-9286-f357-168a" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19ef-8144-faa9-710c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfed-a7ed-5ed8-ebc7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="97ae-ae38-02a9-3072" name="Elven Stormcaller" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="16f4-0f82-54ea-1642" name="Elven Stormcaller" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="27f0-4b40-af56-09b9" name="Magic - Elven Stormcaller" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of the Wilderness, Mastery 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcdc-b328-e320-9668" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="125.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4066-31e2-a611-8409" name="Galadhrim Guard" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac07-4b06-4796-f92a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5adf-3bc7-04da-902e" name="Galadriel, Lady of Lothlorien" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a4c6-1845-fd38-2773" name="Galadriel" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f9d7-871e-b3dd-019a" name="Magic - Galadriel" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Dismay, Spells of Command, Mastery 3.</description>
+        </rule>
+        <rule id="9dca-adf2-0d98-ba09" name="Epic Renewal" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Galadriel may call an Epic Renewal at the start of any phase. Nominate a friendly Hero within 12&quot; - that Hero immediately regains a single point of Might spent earlier in the game.</description>
+        </rule>
+        <rule id="ee56-b513-7711-3371" name="Epic Channelling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Galadriel may call an Epic Channelling at the start of her Move. Galadriel may re-roll failed Focus tests for the remainder of the turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5ebf-f148-a845-639e" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94f1-6ccf-0b6b-1dd9" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ebd7-513a-d6ad-71a8" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="98d8-5138-34d7-daaf" name="Touched by Destiny" hidden="false" targetId="dbdf-b6ad-8aa6-b307" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="31f5-6c87-297a-5e78" name="Counsellor" hidden="false" targetId="94c6-806e-6f9a-10e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cebb-1143-3c3f-10bd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4063-7ab9-706e-171e" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eddd-991c-1e0e-0eae" name="Galadriel, Protectress of Lothlorien" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0eb4-01f8-a2f4-f161" name="Galadriel" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="10/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c996-4b66-276e-cbab" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f917-debd-265c-3011" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="60a9-ebb3-8e4a-50d1" name="Epic Rage" hidden="false" targetId="cd81-0f3c-dddf-242a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="355f-8ba3-4e98-1661" name="Epic Challenge" hidden="false" targetId="7f27-c29b-0738-5034" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3480-e0aa-25a5-0721" name="Epic Charge" hidden="false" targetId="6478-f857-77af-65ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="57d9-b989-872a-b044" name="Spirit Grasp" hidden="false" targetId="72e6-0a5f-f69b-04db" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7759-11d8-431a-195f" name="Spirit Walk" hidden="false" targetId="41ac-db06-022f-2566" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56a9-d826-800c-c806" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="204c-740a-df7f-6e68" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d3f-aa4b-dc5d-871b" name="Celeborn, Lord of Lothlorien" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f613-44b4-8de9-b2db" name="Celeborn" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bf04-ccb2-ebd7-20fb" name="Magic - Celeborn" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Command, Mastery 2.</description>
+        </rule>
+        <rule id="c09b-fe91-1823-f79f" name="The Lord of Lothlorien" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Celeborn is with a formation of Galadhrim (including Archers, Knights and Guards of the Galadhrim Court) the entire formation uses his Fight value, not just Celeborn&apos;s company.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d109-463b-34a0-1eea" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb27-6ce0-ea2a-0ef5" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4fb8-dd6a-1ac5-48ef" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a1c6-1b79-8feb-d4cb" name="Epic Challenge" hidden="false" targetId="7f27-c29b-0738-5034" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="919d-7f5f-f6bb-85cd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bf51-8091-7859-f6a8" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8dd0-f922-5fc1-3469" name="Thranduil, King of Mirkwood" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="49a8-fb9b-b9d5-fe31" name="Thranduil" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="58fb-d186-81af-79b5" name="Magic - Thranduil" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of the Wilderness, Mastery 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0354-d917-ebce-55e9" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f36f-9e9b-881e-b941" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="29fc-c1c0-9c80-1beb" name="Epic Strike" hidden="false" targetId="ecf5-b21e-f3ab-e69e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="68f6-90d7-28d3-defc" name="Epic Shot" hidden="false" targetId="1842-f014-99a6-aa8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530a-c49a-ce08-be10" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4974-2529-e921-dbdf" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="012b-5a16-c39c-beaa" name="Elrond, Master of Rivendell" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f9c7-1819-128d-713f" name="Elrond" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="8/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="32"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="baff-db73-28c3-bc5c" name="Magic - Elrond" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of the Wilderness, Spells of Command, Mastery 3.</description>
+        </rule>
+        <rule id="744a-7b3b-fd71-9232" name="Epic Renewal" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Elrond  may call an Epic Renewal at the start of any phase. Nominate a friendly Hero within 12&quot; - that Hero immediately regains a single point of Might spent earlier in the game.</description>
+        </rule>
+        <rule id="19f6-74b7-3d72-364d" name="Epic Restoration" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Elrond may call an Epic Restoration at the start of any phase. Nominate a friendly formation within 12&quot;. If that formation has a depleted company, that company immediately recovers D3 models lost earlier in the game.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ff45-9fbf-fa6e-2011" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1328-48f4-59d5-994a" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="543b-4fba-b425-d155" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Orcbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9c68-934d-7749-9501" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Elves)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b228-a758-ba1a-78e7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c91c-1285-61e7-bd94" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8121-d01b-dbce-6b1f" name="Cirdan of the Havens" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="972e-4b03-059d-2900" name="Cirdan" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="05b2-ed54-e87d-2ce8" name="Magic - Cirdan" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Command, Mastery 1.</description>
+        </rule>
+        <rule id="6226-11bf-872a-c0e0" name="The Gift of Foresight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time Cirdan&apos;s formation suffers a hit, roll a D6. On a roll of 6 the hit is prevented and the formation does not suffer a casualty. This ability is lost is Cirdan is slain.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0a43-5375-aefd-6401" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a1b-25bb-ff33-677c" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6e2f-64b8-9c1d-bfe0" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d238-943d-edab-3f04" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4a2d-fa37-3c3b-2e9d" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98c0-9a9e-3a8d-a69f" name="Legolas, Prince of Mirkwood" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3093-a71d-0105-d3ee" name="Legolas" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="613f-bddb-b98b-749d" name="Crippling Shot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>LEgolas can use Crippling Shot at any point during his Move phase. Nominate an enemy monster or flying monster within 24&quot; and roll a D6 - on a 4+ that model&apos;s Resilience is reduced by 1 for the remainder of the turn. This is a special kind of attack and does not prevent Legolas from moving at full speed or charging.</description>
+        </rule>
+        <rule id="7010-6fd0-241e-6b94" name="Swift Strike" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Legolas is in an infantry formationm that formation strikes at the same time as cavalry. If legolas is in a cavalry formation, that formation strikes at the same time as monsters.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d13e-2ace-87ca-a088" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b16-cef0-0286-5d91" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5391-ba80-978c-5a33" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a6e1-2fc4-9932-56e6" name="Epic Shot" hidden="false" targetId="1842-f014-99a6-aa8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bff-732b-550b-7fd3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="39ec-aab1-d5d0-54f6" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf76-5943-2f34-9019" name="Gil-galad, High King of the Elves" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7de1-b740-2eeb-68db" name="Gil-galad" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="10/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="6"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="963f-0a15-43fd-8d5b" name="Epic Leadership" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Gil-galad may call an Epic Leadership at the start of the Priority phase. For the remainder of the turn, all friendly formations on the battlefield must re-roll failed Courage tests.</description>
+        </rule>
+        <rule id="af2d-b431-ce3f-eb2e" name="Aiglos" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In close combat, Gil-galad&apos;s company has a +2 bonus to their rolls To Hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8a36-a037-5115-f025" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cfc7-fedb-837b-741b" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="75db-8bbe-7087-5e93" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d82e-0a78-e581-5624" name="Epic Sacrifice" hidden="false" targetId="09bd-47b1-0ed6-b9b3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="94ac-8c2a-242a-f01d" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Elves)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1026-dc93-de8c-412e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="912d-cb96-d17d-43da" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08a3-3060-4539-0dbe" name="Arwen Evenstar" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="1073-e6ff-195b-5216" name="Arwen" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8df8-b5b6-e316-93b6" name="Magic - Arwen" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of the Wilderness, Mastery 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3f6d-f4f8-2b1d-5325" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a8bd-98ca-54fd-a603" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3fda-9ae3-159e-f3f2" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ef-8d3c-0b59-f644" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1edb-72be-3b10-2e78" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c12d-afef-f034-04e9" name="Elladan" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6f68-623b-1d47-1113" name="Elladan" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e4d6-aaa0-9e4b-551f" name="Unbreakable Bond" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Elrohir calls a Heroic Action, Elladan canimmediately call a Heroic Action of the same type without expending any Might. This rule does not affect Epic actions.</description>
+        </rule>
+        <rule id="4c28-f563-2c14-9ccf" name="Hunter of Orcs" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Elladan and his formation are automatically steadfast if defeated in close combat by Orcs.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="166b-2a13-2543-c43a" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d06d-1150-d78f-7af2" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8b18-dd18-010d-0b73" name="Epic Strike" hidden="false" targetId="ecf5-b21e-f3ab-e69e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b11b-7cb8-4c99-ebb0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="964f-d589-54bf-b1c5" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5340-1d37-cf58-07bf" name="Elrohir" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="493e-ca3b-4556-06fe" name="Elrohir" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d724-c425-64ae-e4d7" name="Unbreakable Bond" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Elladan calls a Heroic Action, Elrohir canimmediately call a Heroic Action of the same type without expending any Might. This rule does not affect Epic actions.</description>
+        </rule>
+        <rule id="312d-ee0e-7589-817b" name="Hunter of Orcs" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Elrohir and his formation are automatically steadfast if defeated in close combat by Orcs.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="23d2-71e1-94c4-9139" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8743-3d12-1ef7-fdda" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="18e8-2ba0-61f8-c5cc" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cf6-79a6-ad01-55ca" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f74c-15bd-9f06-1da4" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1f7-32cb-c25e-943e" name="Haldir, Guardian of Lorien" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ce3a-6d94-fabd-22c2" name="Haldir" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Elf"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="48d3-a04d-7af3-3933" name="Guardian of Lothlorien" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Haldir always passes At the Double! rolls if Celeborn or Galadriel are included as part of the same force (and still alive).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ec24-d742-5e09-4b06" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f3d-53f7-d9da-8f00" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="489e-b196-6a0d-5d95" name="Epic Sacrifice" hidden="false" targetId="09bd-47b1-0ed6-b9b3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7196-bf86-3bd2-4d57" name="Epic Shot" hidden="false" targetId="1842-f014-99a6-aa8a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc1f-a82c-e95b-a509" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8833-7e35-6187-ed99" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e45-943d-13c1-2874" name="Fortunes" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="72cf-1f07-e5dc-95f9" name="Fortunes" hidden="false" targetId="5151-517a-6c27-8de6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules>
+    <rule id="573d-5eb4-2b53-fb05" name="Glaives" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A company armed with glaives counts its Fight value as being one point higher than it would otherwise.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>

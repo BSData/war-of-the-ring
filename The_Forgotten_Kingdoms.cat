@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d130-f8d6-df34-e53e" name="The Forgotten Kingdoms" revision="1" battleScribeVersion="2.01" gameSystemId="ce85-7e7f-1b5c-08e5" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="6cf6-7563-ba5b-4a58" name="Hobbit Militia" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="031a-0d5f-6b5f-af3f" name="Hobbits" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="4"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="1/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="2"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="2"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d3a3-7ffc-66b8-041e" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8f99-7963-a774-2fbc" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3754-391b-68f5-bf43" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5653-b7e2-b77f-02e6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="e3b6-157e-d61d-246e" name="Civic Leader" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3af3-d9e5-03e0-3380" name="Civic Leader" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="2/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Hobbit"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6407-be6b-5ec0-74cb" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b4ef-ec0b-0dbd-7d38" name="Hobbits" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="975d-1e8e-8f2d-a7f5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="397d-1fc9-345e-ec41" name="Hobbit Archer Militia" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="db5e-bcbd-90f1-525d" name="Hobbit Archers" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="4"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="1/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="2"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="2"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Hobbit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="52ef-cbf8-3b31-3285" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c59e-69e5-d9f5-88b4" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e9ee-1ffd-9c69-a9e1" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f9-b292-c484-1a75" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f0-19a7-d046-a311" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8e15-4594-4cd5-1e6d" name="Civic Leader" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="abd1-76ad-c085-cb4b" name="Civic Leader" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="2/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Hobbit"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ba-c50e-c049-8977" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="454f-7139-e661-414b" name="Hobbit Archers" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2de-972b-590b-e110" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b09b-5b43-683b-568a" name="Ent" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="30a5-2f78-bc3b-28b5" name="Ent" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="8/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="8"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="8"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Ent"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="780e-a1b6-1a1f-7857" name="Tree Slumber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Ents can use the Ambushers special rule, but can only do so in woods and forests.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7145-ea97-e7a8-3a58" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0f6-16e1-3609-e850" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="78c3-dafa-cf27-6916" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4f93-1907-94a8-4c3c" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ca90-c054-04a1-8993" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45a9-f502-4905-fb57" name="Great Eagle" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0b38-c6c0-a0e2-e9c7" name="Great Eagle" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Flying Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="12"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="6"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="6"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="4"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Eagle"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2c2c-4f0b-11b3-2e6c" name="Swoop Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Great Eagle may make a Swoop Attack instead of moving. The Great Eagle immediately moves at least 24&quot; but no more than 36&quot; in a straigth line (this move can be in any direction). Every enemy formation the Great Eagle moves over immediately suffers D3 Strength 6 hits. The Great Eagle cannot charge or At the Double! in the same turn it has performed a Swoop Attack.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4382-edc5-49fe-b1f9" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8366-ee4b-1546-f4d4" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fb08-9b28-1897-1df2" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="921e-7f32-1600-25d9" name="Treebeard" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ba21-8f75-adb8-b020" name="Treebeard" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="9/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="9"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="10"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Ent"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="14c2-19d3-6b5f-6c3d" name="Tree Slumber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Treebeard can use the Ambushers special rule, but can only do so in woods and forests.</description>
+        </rule>
+        <rule id="6d99-b71b-95f9-782a" name="Ent Charge" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During a turn in which Treebeard calls a Heroic Charge, all friendly Ents within 6&quot; (whether they are Heroes or not) must declare a Heroic Charge. These extra Heroic Charges do not cost any Might.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ffc0-eb8e-cdef-a2cc" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="760f-5137-a0b7-7a28" name="Very Hard to Kill" hidden="false" targetId="7b0e-a15b-8c99-6781" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e9cf-7eed-4f46-debc" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f8c2-a8e6-b0b1-4ce3" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0a16-03b4-6321-f749" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ee5-1f9c-bac1-03ca" name="The Three Hunters" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="27da-c8f8-4ea9-32a7" name="The Three Hunters" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="6"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="8"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a19a-f40c-fed4-2f11" name="Company of Heroes" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each Hero in the Three Hunters contributes a particular special rule. The controlling player is free to remove casualties in whichever order he chooses, but once a Hero is removed as a casualty, the associated special rule is lost. The Three Hunters may not take part in a Heroic Duel.</description>
+        </rule>
+        <rule id="3772-fd06-8ef1-2e40" name="Let&apos;s Hunt Some Orc (Aragorn)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Three Hunters may re-roll failed To Hit rolls during the Fight phase.</description>
+        </rule>
+        <rule id="c916-1bc4-f423-fd3c" name="You Would Die Before Your Stroke Fell (Legolas)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Three Hunters Are counted as being armed with longbows and attack at the same time as monsters.</description>
+        </rule>
+        <rule id="f555-5697-829a-889b" name="Very Dangerous Over Short Distances (Gimli)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If the Three Hunters charge, they receive D6+3 bonus dice in the ensuing Fight phase, rather than +1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="019e-2d65-3357-c384" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8181-cfe7-02ae-89bd" name="Enchanted Cloaks" hidden="false" targetId="f95e-1034-ff59-38df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="27fa-19e8-2ac5-e631" name="Indomitable" hidden="false" targetId="ee34-36bf-0d2d-3d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ad09-4d42-5f0e-4bb8" name="We Stand Alone" hidden="false" targetId="b196-633e-5488-b5a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="68c9-400f-f55f-52dc" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b04c-9338-a1ca-e2f4" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d79-e093-b910-42d4" name="Quickbeam" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="dc85-a21b-220f-17da" name="Quickbeam" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="12"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="8/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="8"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="7"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Ent"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0c83-22b3-c6f4-8ff8" name="Tree Slumber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Quickbeam can use the Ambushers special rule, but can only do so in woods and forests.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4292-cd4c-cfae-48c7" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="51ef-28f6-54f9-3ac5" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0701-6f9c-385c-0db5" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7a62-3f6b-a08b-8c1e" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="302a-53b2-e155-d27f" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8716-05d9-efe5-3dd3" name="Beechbone" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="848c-e0d1-97bb-fbd1" name="Beechbone" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="8/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="8"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="8"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Ent"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a7d6-e53d-36cc-24ae" name="Tree Slumber" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Beechbone can use the Ambushers special rule, but can only do so in woods and forests.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2693-ac2c-010a-96b6" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8edf-cb14-afc0-8168" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3126-19ad-d1f9-dc87" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1050-17b3-56f2-39f3" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1b39-39a4-2c59-1353" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9267-56bf-1668-18b4" name="Tom Bombadil" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3100-8399-11d6-200b" name="Tom Bombadil" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="2D6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="-"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="-"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+        <profile id="24a1-a8ad-cbd1-6478" name="Goldberry" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value=""/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value=""/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value=""/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value=""/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value=""/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7144-d24a-01d8-9586" name="Tom Bombadil&apos;s Rules" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>See WotR pg. 145.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a811-769a-4632-7728" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be56-f4ef-e104-a12b" name="Gwaihir" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ae14-c21d-43c8-eed0" name="Gwaihir" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Flying Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="12"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="7"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="7"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="4"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Eagle"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ba42-6255-f9f2-ce7d" name="Swoop Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Gwaihir may make a Swoop Attack instead of moving. Gwaihir immediately moves at least 24&quot; but no more than 36&quot; in a straigth line (this move can be in any direction). Every enemy formation Gwaihir moves over immediately suffers D3 Strength 6 hits.Gwaihir may not charge or At the Double! in the same turn it has performed a Swoop Attack.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="737d-3bc0-290d-5d4b" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f20c-b38d-596d-1856" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e818-0827-63a6-18d9" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="26ab-476d-de9f-e9d3" name="The Fellowship of the Ring" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0c5c-d633-2a22-3bec" name="The Fellowship of the Ring" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="4398-5787-e591-f278" value="8">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="26ab-476d-de9f-e9d3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="69f9-55b7-706b-bb2f" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4(8)"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5(7)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="10"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="10"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="29cc-6539-9910-bc40" name="Company of Heroes" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each Hero in the Fellowship contributes a particular special rule. The controlling player is free to remove casualties in whichever order he chooses, but once a Hero is removed as a casualty, the associated special rule is lost. Note that the four Hobbits are treated as a single model for the purposes of casualty removal - i.e. you remoce them all at once. The Fellowship may not take part in a Heroic Duel.</description>
+        </rule>
+        <rule id="3670-063f-d958-d977" name="Magic - Gandalf" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whilst Gandalf is alive, the Fellowship has a Mastery level of 3. These spells are considered to be cast by Gandalf for the purposes of range. Gandalf knows all the Spells of Dismay and Command.</description>
+        </rule>
+        <rule id="0d6d-0dc1-db09-6f71" name="You Have My Sword (Aragorn)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fellowship receive a +1 bonus to their dice results in a fight.</description>
+        </rule>
+        <rule id="25b7-92a6-b435-7409" name="And My Bow (Legolas)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fellowship is counted as being armed with longbows and attack at the same time as cavalry.</description>
+        </rule>
+        <rule id="1cab-87a9-fcb6-357a" name="And My Axe (Gimli)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fellowship&apos;s Strength is doubled to 8.</description>
+        </rule>
+        <rule id="0837-5ae7-5878-789e" name="Gondor Will See It Done (Boromir)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fellowship is counted as being armed with shields - Defence increase is shown in the profile.</description>
+        </rule>
+        <rule id="fec6-c594-92c0-0d14" name="Protect the Halflings (The Hobbits)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fellowship, and friendly formations within 12&quot;, are automatically steadfast if they lose a fight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b3d1-fd39-595e-2daa" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab87-7348-be76-4ed7" name="Indomitable" hidden="false" targetId="ee34-36bf-0d2d-3d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0cda-3d07-8274-6cbe" name="We Stand Alone" hidden="false" targetId="b196-633e-5488-b5a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5cf5-cf25-eb67-228c" name="Longbow" hidden="false" targetId="f309-10da-0eac-5512" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fb5b-63f2-7dc2-79aa" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="69f9-55b7-706b-bb2f" name="Bill the Pony" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="fe7c-4758-6999-df87" name="Bill the Pony" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Charge and Fall Back values are increased to D6+4&quot;.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842b-b1ab-36fb-6068" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80db-273e-5633-cde9" name="The White Council" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="971d-09df-2d3c-a43c" name="The White Council" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="6"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="8"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0a32-b2df-dd1c-e80b" name="Company of Heroes" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each Hero in the White Council contributes a particular special rule. The controlling player is free to remove casualties in whichever order he chooses, but once a Hero is removed as a casualty, the associated special rule is lost. The White Council may not take part in a Heroic Duel.</description>
+        </rule>
+        <rule id="cf22-303a-6a59-7cd4" name="Magic - The White Council" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Wilderness, Command and Dismay. Mastery level 8 (-2 per casualty).</description>
+        </rule>
+        <rule id="9755-15c3-b878-3c06" name="Channel Magic (Gandalf)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The White Council may re-roll failed Focus rolls.</description>
+        </rule>
+        <rule id="686a-9b47-2bf2-bffd" name="Voice of Saruman (Saruman)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any enemy formation wishing to charge the White Council must first roll a D6. On a roll of 1-3 the charge automatically stalls. On a 4 or more, the charge proceeds as normal.</description>
+        </rule>
+        <rule id="7e75-d039-aeb5-e9f6" name="Aura of Dismay (Galadriel)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An enemy formation forced to take a Terror test for being charged by the White Council must roll three dice, rather than two, and discard the highest roll.</description>
+        </rule>
+        <rule id="119b-3399-e307-a90f" name="Blademaster (Elrond)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The White Council may re-roll failed To Hit rolls during the Fight phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="dc59-a633-216d-b01f" name="Counsellor" hidden="false" targetId="94c6-806e-6f9a-10e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="96e7-c614-f393-aa1b" name="Indomitable" hidden="false" targetId="ee34-36bf-0d2d-3d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="75f7-c333-3b4e-4030" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f5a4-4bb6-6c1d-1ab9" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa46-ddd5-684d-0610" name="We Stand Alone" hidden="false" targetId="b196-633e-5488-b5a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2f51-2c70-1c2a-6896" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de17-efc3-f1e1-24e5" name="Wardens of the Carrock" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ff7c-c80d-d707-d4c7" name="Beornings" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ac68-03d8-4581-b29f" name="Blessing of the Bear" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Charging Beornings receive +D6 bonus dice in the ensuing Fight phase, rather than +1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f36a-df99-b824-343d" name="Ambushers" hidden="false" targetId="e3f1-733e-19b3-55f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="10f9-07fc-de1d-2f89" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="052e-c66e-e0b6-18d8" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a598-7070-e058-2f94" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="9e6c-7b91-1937-41d7" name="Grimbeorn" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="4"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99de-be0c-b3d8-0708" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="925f-0d52-6f2f-9dbc" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="45.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a191-8b04-0838-a115" name="Beornings" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b09-8f9f-7b40-1ad6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="6015.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf14-141c-772d-748d" name="Council of Wizardry" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f3a7-e630-eab1-63b3" name="Council of Wizardry" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="5"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="5"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2322-ac05-5b57-0847" name="Company of Heroes" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each Hero in the Council of Wizardry contributes a particular special rule. The controlling player is free to remove casualties in whichever order he chooses, but once a Hero is removed as a casualty, the associated special rule is lost. The Council may not take part in a Heroic Duel.</description>
+        </rule>
+        <rule id="908e-3428-af52-9164" name="Magic - Council of Wizardry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Wilderness, Command, Ruin, Dismay and Darkness. Mastery level 10 (-2 per casualty).</description>
+        </rule>
+        <rule id="17b5-c4d4-cb3f-a9b6" name="A Wizard Is Never Late (Gandalf)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The controlling player may re-roll his Priority roll each turn.</description>
+        </rule>
+        <rule id="0ad6-af82-7de5-d1b2" name="Will You Not Consult With Me? (Saruman)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per turn, at the start of the Council of Wizardry&apos;s move, nominate an enemy Hero within 12&quot; and roll a D6 - on a 4 or more, Saruman enthrals the foe and steals a Might point. Increase the Council of Wizardry&apos;s Might by one (this may take the value beyond its starting level) and reduce the enemy Hero&quot;s Might by one.</description>
+        </rule>
+        <rule id="20db-3c89-c8ec-364c" name="Master of Hues and Shapes (Radagast)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Council of Wizardry&apos;s Move value is doubled to 12, and it attacks at the same time as cavalry.</description>
+        </rule>
+        <rule id="9565-1c7c-3d15-2298" name="Blessed Brands (Naurandir)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Council&apos;s attacks have the Bane special rule against all foes.</description>
+        </rule>
+        <rule id="05f6-812f-fa45-a6b7" name="Thundercall (Sulrandir)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per Shoot phase the Council can make an unlimited range shooting attack with a Strength of 10.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ee11-39b4-ae37-fcc4" name="Counsellor" hidden="false" targetId="94c6-806e-6f9a-10e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4efe-11c1-97bf-8b18" name="Indomitable" hidden="false" targetId="ee34-36bf-0d2d-3d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e33b-e3eb-ef4f-ea56" name="We Stand Alone" hidden="false" targetId="b196-633e-5488-b5a3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5f72-c6b3-ab79-a620" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cde4-29cd-075e-bf4d" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="500.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="96af-e8d6-7d2b-c58e" name="Woses Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c53f-68ac-0395-6ba3" name="Woses Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="5"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/3+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="213c-f527-0d50-56f8" name="Stalk Unseen" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The entire formation counts as having enchanted cloaks.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1e33-c0e0-1545-3d17" name="Ambushers" hidden="false" targetId="e3f1-733e-19b3-55f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="964d-815f-3416-6d5f" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5912-e2cc-4029-52c5" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Orcbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ce24-a06a-a5bf-8579" name="Enchanted Cloaks" hidden="false" targetId="f95e-1034-ff59-38df" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="21d4-1182-274c-6367" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2288-c419-e1ae-2449" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="bba5-b63c-fe5b-8d6a" name="Ghan-buri-Ghan" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92d8-3f72-e8e2-c5a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0672-46db-c291-5923" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4c2-5621-960b-8076" name="Woses Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a6-291a-3f9f-c7ca" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca12-7aef-a4c9-a81c" name="Saruman the White" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c7a4-17cf-6030-65c2" name="Saruman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="7"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="df94-bf27-d193-3e17" name="Epic Channelling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Channelling at the start of his move. Saruman may re-roll failed Focus tests for the remainder of the turn.</description>
+        </rule>
+        <rule id="36d2-a209-0f58-1ab2" name="Epic Renewal" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Renewal at the start of any phase. Nominate a friendly Hero within 12&quot; - that Hero immediately regains a single point of Might spent earlier in the game.</description>
+        </rule>
+        <rule id="f9f6-dc26-1d84-dbd6" name="Epic Ruination" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Ruination at the start of his move. For the remainder of the turn, any magical power Saruman casts from the Spells of Ruin has its Strength increased by 2. Magical powers that do not have a Strength value are not affected by Epic Ruination.</description>
+        </rule>
+        <rule id="844e-b24b-a6ef-c808" name="Magic - Saruman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Ruin, Dismay and Command. Mastery level 3.</description>
+        </rule>
+        <rule id="b68f-2713-6d48-4240" name="Voice of Saruman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any enemy formation wishing to charge Saruman&apos;s formation must first roll a D6. On a roll of 1-3 the charge automatically stalls. On a 4 or more, the charge proceeds as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4031-c87f-fc47-b22f" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b45-6893-7ae7-8a8c" name="Gandalf the Grey" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="b22d-84c5-6bca-29b8" name="Gandalf" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8d0e-be8f-a383-41e9" name="Epic Channelling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Channelling at the start of his move. Saruman may re-roll failed Focus tests for the remainder of the turn.</description>
+        </rule>
+        <rule id="11ee-7314-1052-d5cb" name="Epic Renewal" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Renewal at the start of any phase. Nominate a friendly Hero within 12&quot; - that Hero immediately regains a single point of Might spent earlier in the game.</description>
+        </rule>
+        <rule id="122d-2dac-9764-49fa" name="Magic - Gandalf" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of  Dismay and Command, Blinding Light. Mastery level 3.</description>
+        </rule>
+        <rule id="9d7c-6758-25f2-b5be" name="Blinding Light" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>(Focus 5) Gandalf projects a beam of dazzling white light at one enemy formation within 18&quot;. The target must immediately take a Courage test. If the test is passed, all companies in the target formation are reduced to Fight 0 for the remainder of the turn. If thew test is failed, the formation additionally retreats D6&quot;. A formation of Spirits targeted by Blinding Light will also suffer D3 automatic hits in addition to any other Effects suffered.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="abc6-d682-d084-3364" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8240-5aa0-e889-3808" name="Counsellor" hidden="false" targetId="94c6-806e-6f9a-10e1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="00d5-8c91-7b96-baeb" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Master)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ae6d-505e-c8d2-2a8a" name="Touched by Destiny" hidden="false" targetId="dbdf-b6ad-8aa6-b307" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="name" value="Gandalf the White">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="9b45-6893-7ae7-8a8c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03cb-f982-24aa-7e83" type="greaterThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="acbd-a0f2-4704-fed5" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="03cb-f982-24aa-7e83" name="Gandalf the White" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules>
+            <rule id="c622-2f04-1a7f-59dc" name="Voice of Command" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All friendly formations within 6&quot; of Gandalf the White have +1 Courage.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="4f21-7bfb-931d-53d6" name="Overlord" hidden="false" targetId="8f29-2e47-3475-af40" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3682-cc59-33c3-67cd" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7c8-b0e1-87e7-2847" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3476-a846-47b1-b7d8" name="Radagast the Brown" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2ac5-ddf5-7c01-0a2b" name="Radagast" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Spirit"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0de0-9ce0-b646-e736" name="Epic Renewal" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Radagast may call an Epic Renewal at the start of any phase. Nominate a friendly Hero within 12&quot; - that Hero immediately regains a single point of Might spent earlier in the game.</description>
+        </rule>
+        <rule id="7104-b8fe-5f64-fc8f" name="Magic - Radagast" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of the Wilderness and Command. Mastery level 3.</description>
+        </rule>
+        <rule id="0b0c-2187-f5fd-40f6" name="Epic Tranquility" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Radagast may call an Epic Tranquility at the start of the Charge phase. Charges may not be made against Radagast&apos;s formation that turn.</description>
+        </rule>
+        <rule id="c5e2-daa0-26c6-d0a1" name="Beastwalk" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Radagast and his formation have the Pathfinders (Master) rule. In addition, they charge D6+6&quot;, as if they were cavalry.</description>
+        </rule>
+        <rule id="11f6-a807-27b2-86e2" name="Birdsight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Radagast is treated as being able to see everywhere on the board - he does not need an arc of sight or line of sight for any of his spells.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d320-d2f6-71c2-f850" name="Epic Defence" hidden="false" targetId="16e0-0094-a405-a28a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="373b-606e-5b05-ac9d" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c553-9115-186a-fe8e" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a0cb-e298-3fea-3c4b" name="Fortunes" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6449-1af2-bd91-efd6" name="Fortunes" hidden="false" targetId="5151-517a-6c27-8de6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>

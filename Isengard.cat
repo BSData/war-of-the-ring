@@ -1,0 +1,3229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7d35-be39-0ebf-11a8" name="Isengard" revision="3" battleScribeVersion="2.01" gameSystemId="ce85-7e7f-1b5c-08e5" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="6ac6-f497-eea0-333b" name="Uruk-hai Phalanx" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="46ab-2bde-7383-8527" name="Uruk-hai Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8fec-ef9d-391a-99ae" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b5da-c861-866a-928b" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbba-eb6c-4afa-7d98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47dc-b2f1-cc34-c7e2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="822b-5907-d656-ff66" name="Uruk-hai Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="89a5-9234-580c-2673" name="Uruk-hai Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d856-666e-0e9d-b1c8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b69c-0119-3cc5-17eb" name="Uruk-hai Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="981a-9340-3279-ec0d" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f257-187c-03af-0756" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0822-850b-9eb2-5242" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d9ca-fa74-8ee6-e604" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2103-2a42-d07a-e138" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8987-ea47-c969-dc8c" name="Uruk-hai Shaman" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="76c8-0c41-198e-5f43" name="Uruk-hai Shaman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="b358-6865-bbc8-1484" name="Magic - Uruk-hai Shaman" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of Ruin, Mastery Level 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dc6-2187-51b6-6ac6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="94a7-13f2-c340-e45e" name="Uruk-hai Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c400-0693-40ab-8744" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9d0-1bc4-8cea-39b7" name="Uruk-hai Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bcd6-5bbb-8c84-dad3" name="Uruk-hai Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="e694-4c63-cd89-a743" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5(7)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c83e-a6a3-b625-02dc" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bd49-e688-47ef-994f" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c50-1b0f-522a-83fe" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4cc-d64a-947d-41d7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="b2e1-4669-2c35-e5b2" name="Uruk-hai Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="94f6-fe15-9b65-e1eb" name="Uruk-hai Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc4-6cfb-f4bd-0fe7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aaff-4893-51c6-833c" name="Uruk-hai Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="525b-7e11-233c-141f" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93ad-9889-c3cb-c109" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b874-756d-fe5c-89ee" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="001c-444d-d935-c0a4" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cece-f0f8-f839-d7c9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="06f4-77a1-b91f-ecbc" name="Uruk-hai Shaman" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="78be-34e0-de87-e759" name="Uruk-hai Shaman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="b9a6-eec8-28f6-6c3a" name="Magic - Uruk-hai Shaman" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of Ruin, Mastery Level 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e3-3381-b8cc-b1d7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b9ac-4cdc-00ee-cedf" name="Uruk-hai Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e3-b1db-910c-6614" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e694-4c63-cd89-a743" name="Crossbows" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4d37-fab8-cb34-784d" name="Crossbow" hidden="false" targetId="ed8c-d753-c0ef-e1b3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c19-435c-0d32-e6d2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f816-f366-3475-88aa" name="Uruk-hai Scout Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ecf4-95f5-c647-cfc1" name="Uruk-hai Scouts" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="f816-f366-3475-88aa" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7015-a1f0-b24a-c31e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="7"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d7b0-a88e-e0f6-6b48" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b8be-7174-2cbe-77b9" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6ba6-d49a-39d4-13f2" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d1-b161-5154-3b4e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5c1-0505-7fa3-a60b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="0a7a-c4e4-f68a-8c07" name="Uruk-hai Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="1be6-f26e-c3bf-76a6" name="Uruk-hai Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e70-1fe3-d376-8ef9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d21-97fb-8ab7-8754" name="Uruk-hai Shaman" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8791-347a-a357-3a64" name="Uruk-hai Shaman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="991e-1578-9fee-de7a" name="Magic - Uruk-hai Shaman" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of Ruin, Mastery Level 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1f-8b23-c1fc-18ec" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="722f-8eb5-f20b-d727" name="Uruk-hai Scouts" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3d-f310-0a21-7917" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="672d-b684-67e8-0780" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1eca-9f22-11ce-75e6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7015-a1f0-b24a-c31e" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="722f-8eb5-f20b-d727" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d59-d746-4ad1-77f1" name="Bows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e461-8b2e-db79-820a" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="722f-8eb5-f20b-d727" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9387-a5bf-c96b-c2eb" name="Isengard Orc Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="46b4-c811-ec37-6db1" name="Orc Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="9387-a5bf-c96b-c2eb" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a157-07b7-5fdd-9adf" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f9dc-8cb9-838d-3371" name="Mob Rule" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Orc companies provide +2 dice when supporting, not +1.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="becb-aeba-0255-d464" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a530-a07a-1cd3-7cd6" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c9c-d0a5-2f3d-04be" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ad6-6d81-7db0-f565" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1c03-bc50-5757-f994" name="Orc Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="1ec3-d905-e05d-2d43" name="Orc Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f25d-10f9-ec19-41d3" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5650-6de4-203b-1758" name="Isengard Shaman" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a3dd-ed98-146f-cf68" name="Isengard Shaman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d3fa-f9ea-daf3-8f0a" name="Magic - Orc Shaman" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of Ruin, Mastery Level 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b29d-4af8-93d8-2552" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f17e-1c61-a06a-6769" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ad7c-df18-5246-1b40" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="958d-6970-435a-cf73" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="23d8-6191-6657-143b" name="Orc Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fcc8-731f-a6c1-9ade" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e081-d3cd-dd35-53a4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="721b-3c5e-3997-2cd1" name="Orc Taskmaster" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f7a8-7307-2d47-73eb" name="Taskmaster" hidden="false" targetId="ac2a-8183-0e87-d874" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d35-a37e-d3e5-6036" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c0a-7744-409b-6fbd" name="Orc Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4586-0858-c6a3-862e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c147-2346-d71f-b376" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b999-5108-9822-d5e2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a157-07b7-5fdd-9adf" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c0a-7744-409b-6fbd" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac3c-88d7-6dc6-da31" name="Bows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6896-f706-4872-2e1d" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c0a-7744-409b-6fbd" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2579-642e-7774-6d8d" name="Uruk-hai Sappers" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="996a-9602-fd4e-c16b" name="Uruk-hai Sappers" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e694-4c63-cd89-a743" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="048b-8e4f-0e01-dd4f" name="Explosive Demise" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When the Uruk-hai Sappers are removed from play they explode! Every formation within 2D6&quot; suffers D6+4 Strength 10 hits. The controlling player may attempt to have the Sappers explode voluntarily at the start of their move. The formation must pass a Courage test - if it does so, the formation explodes as detailed above and is then removed as a casualty.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9325-5621-139f-94fe" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="45bc-0c2d-d1e7-6967" name="Feral Uruk-hai Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8cc6-0d42-6fc9-ab60" name="Feral Uruk-hai" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7015-a1f0-b24a-c31e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="5"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1f18-8779-cb1f-9005" name="Ambushers" hidden="false" targetId="e3f1-733e-19b3-55f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a4f0-5a03-4b38-4e1e" name="Berserk" hidden="false" targetId="cc5b-f3ea-6e46-ec0c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="15d9-a7e6-c19f-0253" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8b78-ca5b-1953-b8ae" name="Feral Uruk-hai" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4413-0f2b-f6b6-d2a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b866-62ff-6de5-ad19" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0d06-328f-3b26-7342" name="Warg Rider Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="062e-fc97-7553-752a" name="Warg Riders" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(5)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="0d06-328f-3b26-7342" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9cd6-0def-be9b-0e37" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="2"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ee21-02bd-788a-188a" name="Prowlers" hidden="false" targetId="74a0-f722-ae0c-edac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1013-d881-edbe-ee74" name="Skilled Riders" hidden="false" targetId="d8f0-5981-96d8-df93" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="44fb-8e57-331a-4228" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4a58-2018-79bb-4d2b" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a06-9977-a273-71fd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb8-e4d1-e229-6863" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d6cd-d806-9637-c363" name="Orc Captain" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="710e-1623-9fa7-c225" name="Orc Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bed-9b8f-a0cf-50dd" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f28e-6d31-b60d-5103" name="Isengard Shaman" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5383-d699-317e-4ce2" name="Isengard Shaman" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="1"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="1419-76c9-42a7-4268" name="Magic - Orc Shaman" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Spells of Ruin, Mastery Level 1.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86ff-0cb8-8d35-49fd" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ee9-ef74-af1f-05b4" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9907-40f6-2523-0bb3" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28af-c98a-0ed1-cac1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b130-8b9f-1f7c-b167" name="Orc Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5503-3fcf-c9bb-f553" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="667d-366f-05c8-1a63" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e61a-9228-839a-8ec8" name="Warg Riders" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ef-5295-cb8b-6942" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="66de-45ae-5671-63c9" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c7a-4bea-f516-32ab" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="9cd6-0def-be9b-0e37" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e61a-9228-839a-8ec8" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="672b-548c-f0d1-c73f" name="Bows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f113-c13b-04d9-86b8" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e61a-9228-839a-8ec8" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c189-c1a4-3caa-f52e" name="Dunlending Huscarls" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e706-72f7-b669-dce7" name="Dunlending Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="c189-c1a4-3caa-f52e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db65-8186-2867-0cdf" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="aef5-9f4e-35e0-c2b0" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8011-7593-2204-750d" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f07-4a71-8d8f-1632" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f101-926b-9be2-fbe4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="376e-7c62-c375-0738" name="Dunlending Chieftain" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d462-2b79-6c4d-5801" name="Dunlending Chieftain" book="" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1767-28e8-be53-17a0" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4617-3c44-7293-cb9d" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="723a-ae8f-6afe-e904" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d28-e53d-fce9-1e09" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d865-8106-2612-4358" name="Dunlending Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e11b-5621-a6bd-c780" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b269-c581-c676-29ab" name="Wargear" hidden="false" collective="false" defaultSelectionEntryId="0dd0-57b4-5f18-854c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b1d-0cfb-9131-dd2f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcb6-c4bb-2d78-4c93" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="db65-8186-2867-0cdf" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d865-8106-2612-4358" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="12a6-d4bf-f917-14ca" name="Bows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ba23-7693-077d-3491" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d865-8106-2612-4358" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0dd0-57b4-5f18-854c" name="Two-handed Weapons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2921-02a5-d03e-34e9" name="Two-handed Weapons" hidden="false" targetId="af28-95af-b946-ed03" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac36-55dd-7e70-823b" name="Wild men of Dunland" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="50fa-b04a-b872-dccf" name="Wild Men" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="80fa-9b52-b273-3e4e" name="For Vengeance!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>During a turn in which the Dunlending Huscarls made a succesful charge, their Strength value is counted as being 5.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="336d-24ab-5d75-5e3a" name="Ambushers" hidden="false" targetId="e3f1-733e-19b3-55f1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cf2b-36d1-3045-b6f8" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f501-21b9-eb56-5707" name="Wild Men" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ed-eaeb-bb25-3203" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e1-0e82-8cee-3091" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1959-92a1-510e-2008" name="Uruk-hai Berserker Warband" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bb69-aae0-925f-e8b1" name="Uruk-hai Berserkers" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e694-4c63-cd89-a743" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="6"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4a11-c690-4938-e8cb" name="Headlong Fury" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Charging Uruk-hai Berserkers receive +D6 bonus dice in the ensuing Fight phase, rather than +1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="57ff-078a-6509-804b" name="Berserk" hidden="false" targetId="cc5b-f3ea-6e46-ec0c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d0f7-c1b6-2d8d-c88e" name="Indomitable" hidden="false" targetId="ee34-36bf-0d2d-3d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f7e-35be-7d09-b45f" name="Stalwart" hidden="false" targetId="633f-7fae-4bd8-3bf6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="62d1-d96a-ce3a-4f42" name="Two-handed Weapons" hidden="false" targetId="af28-95af-b946-ed03" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dd88-c440-25e1-f6b1" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2a08-1373-9fc4-9df6" name="Sharkey&apos;s Ruffians" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7203-a8db-49cb-c028" name="Ruffians" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(6)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7015-a1f0-b24a-c31e" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="2/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="3"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="3"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="1"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0f30-0356-048b-4e57" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7d7e-7d3c-9a9d-f7d7" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39e2-b523-b125-ccb6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4340-37bd-c3fe-7489" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a50d-06e0-5dbe-ded9" name="Ruffian Taskmaster" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e71e-c88d-af87-bb03" name="Taskmaster" hidden="false" targetId="ac2a-8183-0e87-d874" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3e-e93b-89c6-1e32" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c0dd-0887-8f6c-f48b" name="Ruffians" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3e-9ef4-f79b-54e2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2274-2063-ba78-a152" name="Isengard Troll" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="08f6-10ae-66ca-8cbd" name="Isengard Troll" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="7"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="8"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Troll"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="faa8-05f6-6b3e-0137" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7a50-6576-c529-a0d8" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2f6-6dfa-8325-f560" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c2a3-5570-38c1-359d" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="615f-81b6-e74f-02ba" name="Isengard Troll Captain" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f2fa-0929-4721-8be2" name="Isengard Troll Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="8"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="7/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="7"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="8"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Troll"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="57af-136c-aaaa-2a50" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5bf6-bcc1-175e-1723" name="Terror" hidden="false" targetId="af59-6f4e-3477-ccd4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dec7-f605-449e-37ea" name="Very Hard to Kill" hidden="false" targetId="7b0e-a15b-8c99-6781" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0f93-635c-3aa5-dc65" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e59-4be6-6f43-709a" name="Isengard Battering Ram" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3124-5024-c7e3-b738" name="Battering Ram" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Monster"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8e9c-5281-84d6-cadd" name="Break it Down!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy formations do not receive Defence bonuses from a building or ruin defensible terrain feature in a fight that includes an Uruk-hai Battering Ram.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2603-f900-1c68-6e0d" name="Hard to Kill" hidden="false" targetId="d424-d200-2348-8ad8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0d99-9776-aa78-b328" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9dc-8278-2db4-ac61" name="Dunlending Horsemen" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f60e-9338-1477-20fd" name="Dunlending Horsemen" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="10"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="2"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0e0b-63d2-2bf8-6a10" name="Burning Rick, Cot and Tree." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Enemy formations do not receive Defence bonuses from a defensible terrain feature if they are fighting Dunlending Horsemen,</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1194-8758-fab5-8e6d" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4214-5c98-369b-69d7" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d827-7a1e-553b-6760" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fa-87b0-c144-d098" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="690f-1134-ee65-d04f" name="Dunlending Chieftain" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="fc09-49f9-e25c-4946" name="Dunlending Chieftain" book="" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+                    <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                    <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                    <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                    <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                    <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                    <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+                    <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc05-6a8d-4b3a-db66" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4624-aca6-5f4d-4a37" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="be26-f622-08c8-7c05" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="966f-ed6f-c393-cd01" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4db-c260-a176-d1cf" name="Dunlending Horsemen" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7879-2d7d-0da1-d2d0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a7d-a1c1-8300-b781" name="Isengard Assault Ballista" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="40a0-f6e5-2030-e51e" name="Assault Ballista" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="8"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="3"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b"/>
+          </characteristics>
+        </profile>
+        <profile id="e8ad-6ebf-528b-9bc3" name="Isengard Assault Ballista" hidden="false" profileTypeId="6a7b-2726-223c-108b" profileTypeName="Ranged Weapons">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Name" characteristicTypeId="cbf0-21fb-3fcb-6d68" value="Assault Ballista"/>
+            <characteristic name="Range" characteristicTypeId="0f7b-cf2e-c21c-0e0e" value="48&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="656c-0ba7-4e09-71ee" value="9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="89fb-2c9e-625a-3bd9" name="Assault Ballista Artillery Table" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>1-2 Miss
+3-5 Target formation suffers D6 Strength 9 hits.
+6+ Target formation suffers D6+4 Strength 9 hits.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1c82-c1ee-5735-d3db" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="32bc-45f8-f3b6-bea6" name="Assault Ballista" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0892-7ba2-b8e6-118d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c2-37e7-9e68-79fd" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7a9-b685-ab2a-4241" name="Ugluk&apos;s Raiders" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5014-75c3-9744-5a71" name="Uruk-hai Scouts" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="7"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4(6)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6461-3fb5-084c-5d94" name="Furious Charge." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Ugluk can choose to expend a Might point at the start of any Charge phase. If he does so, Ugluk&apos;s RAiders will charge D6+6&quot;, rather than D6+2&quot; and receive a Charge bonus of +2, rather than +1.</description>
+        </rule>
+        <rule id="3c0e-7461-44c8-1583" name="Forward, You Maggots!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Ugluk&apos;s Raiders fail a Terror test, Ugluk immediately inflicts D6 automatic hits on his formation - the test is then treated as having been passed.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c15b-dc9e-590d-7639" name="Pathfinder (Woodland)" hidden="false" targetId="8201-0537-7930-db0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06e8-d329-8e8f-ff98" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="922d-42c8-48dc-b780" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="af80-e3da-b726-c54c" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="54fa-de06-8cbb-63c2" name="Ugluk" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a0-8e00-492f-d46e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6fb-f88f-408d-83b1" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="115.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae85-75d6-4ea2-b841" name="Uruk-hai Scouts" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26b8-d978-3af5-d96d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3ff-c9ad-c90f-e7bb" name="Vrashku&apos;s Talons" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8d57-7b6c-23f3-e776" name="Uruk-hai Warriors" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="6"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="5"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="da40-7de9-963b-6b4d" name="Take Aim!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Vrashku can choose to expend a Might point at the start of any Shoot phase. If he does so, his formation are counted as having a Shoot value of 2+ until the end of the phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f1ec-5422-1336-9163" name="Crossbow" hidden="false" targetId="ed8c-d753-c0ef-e1b3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3154-4ee2-654c-0187" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4bd1-ff15-b90e-3f2b" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="869f-c2bc-cc30-6de7" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="8b98-e429-2180-4a7b" name="Vrashku" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29fd-c51d-141c-696a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6948-33c0-614e-24f0" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="95.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f358-034f-72e7-b3a1" name="Uruk-hai Warriors" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3cd-1e08-5e10-5f72" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40c7-c34b-510e-8fd3" name="Sharku&apos;s Hunters" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3e45-5e2f-fe36-150c" name="Warg Riders" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="5773-69c9-8c5e-dcff" value="4(5)">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="40c7-c34b-510e-8fd3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="73e0-8317-5671-9f35" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="10"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="3/5+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="2"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="aff0-20fa-59fa-9b4e" name="Throwing Weapons" hidden="false" targetId="20b2-7d14-fca4-3f48" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ae3-9281-4593-78fd" name="Expert Riders" hidden="false" targetId="be47-4e29-a135-916f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="763b-1209-6ad0-ec84" name="Prowlers" hidden="false" targetId="74a0-f722-ae0c-edac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ab3-d86b-5356-b451" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b7a3-7f3d-19a2-6a9d" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0fed-ffca-0e5b-98cb" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="b646-9c2b-15d1-9b4b" name="Sharku" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Cavalry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Orc"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34d1-1a2d-2285-8d67" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22f7-e3e7-5e28-d2c3" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a873-9cb2-57c3-5d90" name="Warg Riders" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4148-ce60-c402-e187" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c52-8376-8f6f-d0da" name="Wargear" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d4-e088-d9bf-a3b7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="73e0-8317-5671-9f35" name="Shields" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a873-9cb2-57c3-5d90" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6747-313a-ede9-13ff" name="Bows" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a0ba-7e29-dea5-9d08" name="Bow" hidden="false" targetId="b759-ac33-da31-2f83" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="increment" field="0d9e-3afc-2ad8-7a1d" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a873-9cb2-57c3-5d90" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f6f-2db0-fff7-ed88" name="Mauhur&apos;s Marauders" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7761-e36c-dfde-8456" name="Uruk-hai Scouts" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="7"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/4+"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="4"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="4(6)"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="8"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7af1-a98c-5d13-4185" name="Man-flesh!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Mauhur&apos;s Marauders win a combat, they inflict an extra D6 automatis hits on the enemy. The number of hits is calculated before the enemy tests for panic.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8712-4b47-03b9-f58d" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cc6-7856-637a-c43b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b31f-d067-0ef5-0a98" name="New CategoryLink" hidden="false" targetId="c09d-265a-65f0-e592" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="43ed-8948-db29-793b" name="Command Company" hidden="false" collective="false" type="unit">
+          <profiles>
+            <profile id="3ebc-2e7a-68f6-5cad" name="Mauhur" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Infantry"/>
+                <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value=""/>
+                <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="5/-"/>
+                <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51"/>
+                <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
+                <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
+                <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
+                <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+                <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+                <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9054-1415-8cc7-4226" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37b4-9103-97d6-95ea" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="5ee1-78dc-ff39-e89f" name="Banner Bearer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ebc7-485e-032e-30c1" name="Banner Bearer" hidden="false" targetId="e696-1f8f-1451-2656" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ae-2cdb-729f-b280" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="417a-014a-5e13-8f85" name="Uruk-hai Drummer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c757-f200-3c4a-b06e" name="Hornblower/Drummer" hidden="false" targetId="fc63-c83b-22ed-7195" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40ae-e5bb-a877-2f8c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="100.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="20e2-a06a-f4e4-5397" name="Uruk-hai Scouts" hidden="false" collective="false" type="unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91fc-62d3-563f-5910" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d550-d8ff-1359-4618" name="Thrydan Wolfsbane" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="78f9-6adc-0673-c6ed" name="Thrydan Wolfsbane" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7541-037c-6027-f5aa" name="Death to the Forgoil!" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Thrydan&apos;s formation is automatically steadfast if beaten in a close combat that involves one or more Rohan formations, in addition, Thrydan receives a +2 modifier to the roll to win a Heroic Duel when fighting against a Rohan Hero.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3775-9494-2192-c99c" name="Epic Strike" hidden="false" targetId="ecf5-b21e-f3ab-e69e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a01b-a9d1-c0c5-da2a" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(men)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e6bf-c8db-6300-df84" name="Bane" hidden="false" targetId="7192-ba50-de81-2feb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Wargbane">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e83-1d22-32d1-77d1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="df03-da96-2784-8ee2" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65a7-e6fe-2d9f-2c46" name="Saruman the White Hand" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3cf8-329a-0daa-08a6" name="Saruman the White Hand" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="4/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="6"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="3"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a9f1-7ae4-decb-9e92" name="Epic Channelling" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Channelling at the start of his move.
+Saruman may re-roll failed Focus tests for the remainder of the turn.</description>
+        </rule>
+        <rule id="4cf7-56b9-2a6e-0d6d" name="Epic Ruination" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Saruman may call an Epic Ruination at the start of his move.
+For the remainder of the turn, any magical power Saruman casts from the Spells of Ruin has its Strength increased by 2. Magical powers that do not have a Strength value are not affected by Epic Ruination.</description>
+        </rule>
+        <rule id="b073-53a4-616d-f750" name="Magic - Saruman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spells of Ruin and Command, Mastery level 3.</description>
+        </rule>
+        <rule id="08bd-eefa-a534-02b0" name="Voice of Saruman" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>An enemy formation wishing to charge Saruman&apos;s formation must first roll a D6. On a roll of 1-3 the charge automatically stalls. On a 4 or more, the charge proceeds as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8b46-73e4-84c4-9d84" name="Epic Challenge" hidden="false" targetId="7f27-c29b-0738-5034" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="edb0-6014-5128-afde" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(master)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ebd2-2f9c-6b25-7469" name="Touched by Destiny" hidden="false" targetId="dbdf-b6ad-8aa6-b307" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="239c-8c4a-9192-f790" name="Overlord" hidden="false" targetId="8f29-2e47-3475-af40" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b70-f57c-9280-1c6c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b14-dd67-43ed-9d4d" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="240.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d74-b7f3-a92d-8701" name="Lurtz" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c9bb-8887-229e-b60f" name="Lurtz" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="6/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="3"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="5"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="4"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Uruk-hai"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f98e-8efe-5450-065f" name="Mighty Blow" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Lurtz can choose to expend a Might point at the start of any Fight phase. If he doesa so, each hit caused ba his company will cause a casualty, regardless of the foe&apos;s Resilience.</description>
+        </rule>
+        <rule id="c06e-eb4d-97c1-2434" name="Assassin&apos;s Shot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Lurtz may attempt an Assasssin&apos;s Shot at any point during his Shoot phase. Nominate a visible enemy Hero within 24&quot; and arc of sight and roll a D6. On a 4 or more, the target&apos;s Resilience is reduced by 1 (to a minimum of 1) for the remainder of the turn. This is a special kind of attack and does not prevent Lurtz from moving at full speed or charging.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="59b6-82e9-b34d-4b8b" name="Inspiring Leader" hidden="false" targetId="e5cf-8252-5a7c-6cf8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Uruk-hai)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="07b3-6d7f-c196-1cdf" name="Pathfinders (Master)" hidden="false" targetId="e716-6bd1-e23d-7aca" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5b1c-6fad-9a0c-f63b" name="Epic Strike" hidden="false" targetId="ecf5-b21e-f3ab-e69e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="66ed-052e-3c81-b9ff" name="Epic Rage" hidden="false" targetId="cd81-0f3c-dddf-242a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dc0-9798-321a-737c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="fb3d-56c9-20b8-0974" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2b2-cb60-f0e0-e929" name="Grima Wormtongue" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8b0b-6dda-8404-df0f" name="Grima Wormtongue" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Type" characteristicTypeId="d662-e50c-ac86-7f43" value="Hero"/>
+            <characteristic name="M" characteristicTypeId="4398-5787-e591-f278" value="-"/>
+            <characteristic name="F" characteristicTypeId="2d4f-5b2c-83b3-475e" value="-1/-"/>
+            <characteristic name="S" characteristicTypeId="2abd-83fb-6497-ac51" value="-"/>
+            <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff" value="-"/>
+            <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a" value="-"/>
+            <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="1"/>
+            <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="-2"/>
+            <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="-"/>
+            <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Man"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1527-04d6-9776-d595" name="Treacherous Snake" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Grima is not assigned to a friendly formation, but an enemy one! He is deployed after all other formations have been placed on the table. Grima&apos;s formation always suffers penalties to its Fight and Courage, as shown above. If, however, Grima&apos;s formation ever passes or fails a Courage test on a roll of a double, he is discovered to be a tritor and slinks off before justice can be meted upon him. Remove Grima from play as a casualty.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d39c-363d-ba36-ec6d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8ecd-f0d9-3ecd-dbf9" name="New CategoryLink" hidden="false" targetId="ec09-1b37-8c60-64d9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cdea-a781-cd24-59e9" name="Fates" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8494-a5ef-cc7c-059d" name="Fates" hidden="false" targetId="4d37-9d6b-59de-d26c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="0d9e-3afc-2ad8-7a1d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
