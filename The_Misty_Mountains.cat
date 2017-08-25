@@ -1157,7 +1157,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6f7d-d3ff-a99b-4b85" name="New CategoryLink" hidden="false" targetId="1cb1-0f9a-a4bd-13c7" primary="true">
+        <categoryLink id="77c6-f21f-038f-5580" name="New CategoryLink" hidden="false" targetId="3fe2-42ec-b622-7478" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1177,9 +1177,9 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="3015-f265-5360-d20e" name="Goblin Captain" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3015-f265-5360-d20e" name="Blackshield Captain" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="b2a0-efdb-7aae-ce21" name="Goblin Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
+                <profile id="b2a0-efdb-7aae-ce21" name="Blackshield Captain" hidden="false" profileTypeId="4082-74c3-3f6f-ab94" profileTypeName="Company">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1192,7 +1192,7 @@
                     <characteristic name="D" characteristicTypeId="5773-69c9-8c5e-dcff"/>
                     <characteristic name="A" characteristicTypeId="2a19-ef4e-44e1-193a"/>
                     <characteristic name="R" characteristicTypeId="3836-282c-bf45-ef4f" value="2"/>
-                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="3"/>
+                    <characteristic name="C" characteristicTypeId="283c-3219-8714-da89" value="4"/>
                     <characteristic name="Mt" characteristicTypeId="d61c-7bbd-e5f6-fe0e" value="2"/>
                     <characteristic name="Race" characteristicTypeId="2b4a-dcfe-5824-fe7b" value="Goblin"/>
                   </characteristics>
